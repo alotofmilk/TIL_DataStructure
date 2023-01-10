@@ -41,13 +41,19 @@
 - 리스트를 마치 최소 힙처럼 다룰 수 있게 만들어준다! 원소를 추가하거나 삭제하고 싶다면 heapq 모듈의 함수를 호출할 때마다 리스트를 인자로 넘겨줘야한다.
 
 `import heapq` : 모듈 임포트
+
 `heapq.heapify(heap)` : 기존 리스트를 힙 구조로 바꾸기
+
 `heapq.heappush(heap, value)` : 삽입
+
 `heapq.heappop(heap)` : 최솟값 (최상단 노드) 얻기 ← 삭제하고 얻기
+
 `heap[0]` : 삭제하지 않고 조회만 하기
 
 #### max heap을 다루고 싶다면?
+
 `heapq.heappush(heap, -value)` : 삽입
+
 `-heapq.heappop(heap)` : 제거
 
 ### 힙 정렬 예시 코드
