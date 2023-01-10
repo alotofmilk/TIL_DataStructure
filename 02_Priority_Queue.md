@@ -50,6 +50,8 @@
 `heapq.heappush(heap, -value)` : 삽입
 `-heapq.heappop(heap)` : 제거
 
+### 힙 정렬 예시 코드
+
 ```python
 import sys
 import heapq
